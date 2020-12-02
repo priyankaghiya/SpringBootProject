@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8">
+    <title>View page</title>
+</head>
+<body>
+<h1 align="center">LIST OF RECORDS </h1>
+
+<br><br>
+<table align="center" border="5" cellpadding="10" cellspacing="10">
+    <tr><th>ID</th><th>PASSWORD</th></tr>
+    <tr th:each="st : ${slist}">
+        <td th:text="${st.stdId}"></td>
+        <td th:text="${st.stdPass}"></td>
+    </tr>
+</table>
+</body>
+</html>

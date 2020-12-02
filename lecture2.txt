@@ -1,0 +1,20 @@
+if our server is at the same machine and we have to tell thhe browser that our server is at the
+same computer then we can say it by "localhost"
+now see which server we have tomcat server and to identify it we have 8080
+wamp server 3306
+now tomcat will have many project now which project to call for that @requestmapping(value=stdhome)
+
+when we want to send any HTML file to your client then manke a seperate method in that method make the 
+object of ModelAnd View and whatever file you want to send  setViewName ma write the name of that file in the 
+and return that object
+
+NOW stdhome thi mycontroller class call hoga and these class contains many methods so how only this method 
+will br called?So for that also we have to do request mapping.
+
+Before the method we always write getMapping or postMapping if we it is with parameters then write postMapping
+
+we will write these in the browser 
+http://localhost:8080/stdhome/
+
+now here in our program we have written getMapping(value="/") so in the browser due to the last slash 
+it will automatically call these method.

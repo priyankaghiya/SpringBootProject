@@ -1,0 +1,39 @@
+jpa means hibernate 
+in this with coding table will be created auto
+we only have to create db
+no matter how many tables you have to make
+that number of classes should be made
+
+model-right click -java class-name it as Student are 
+called model ,pojo, bean these cot variables,
+constructor,getter and setter methods for each and every
+variables.
+
+in the student class
+we write @Entity before that class so for that class
+table will be there
+
+for primary key-@Id
+
+
+Sir 
+@Entity
+it is to tell jpa that a table must be created in db
+with the name of the following/below class name.
+
+@Id
+it should be integer.jpa will create field in the table with the same name only
+it will be a primary key.
+
+@Column
+it is use to create a field in table with different from variable name
+where in the bracket there is the name of the field in the table
+
+Repository interface is used to perform transaction between your model and table in database.
+jetla class etle darek class ni alag alag repository banavi pade
+
+@Autowired
+when we want to use an interface in spring then write above it so we can use it without making an object
+
+ORM Object Relatinal Mapping   .save method
+

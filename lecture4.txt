@@ -1,0 +1,4 @@
+Thymeleaf is use to display dynamic contents on a static webpage
+like HTMl.
+Using thymeleaf in springboot JVm can geneate dynaic web page in html page.
+Thymeleaf is use to show records from database on html page

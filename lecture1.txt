@@ -1,0 +1,39 @@
+Spring Boot
+First Project name is StudentSpringBoot
+Web Application are of two types Static And Dynamic
+Static : HTML,CSS and Javascript
+Dynamic :Static +Database(at server)
+To send the user input to the server we have three rules 
+1)User input must be in the form
+2)Submit button in the form
+3)Action Attribute 
+
+
+Service method serves get and post both
+user input is received by the request 
+ Database register :
+1)Register driver
+2)Connection con
+3)Statement ready
+4)Query(by variable)
+
+jpa : Java Persistant Application
+SpringBoot would take out the values from the object and will fire the query automatically.
+SpringBoot is used to make dynamic web application using java.
+After creating project if we want to add dependecy then search in google on Oracle site.
+In Spring Framework when we want to add jar file add dependency instead, that dependency
+when the prject runs springboot will go to the .m2 folder and in that it will go on google
+and will extract all the libraries in the .m2 folder.
+All HTML files must be saved in the templates folder.In template folder inside resources folder.
+
+pom.xml : it contains all dependency library for current project like web,jpa,mysql etc.
+(it is called dependency injection) now,if first project is created or downloaded from 
+the spring initilizr site , all the required jar file will be extracted or downloaded from 
+internet by the spring framework itself automatically and all this jar files and libraries 
+will be stored inside m2 folder. So, if in future in the same folder or in new other 
+project if this jar library is required, spring framework will automatically fetch this library
+from .m2 folder and if it is not found in .m2 folder then spring framework will fetch or download 
+library from internet.
+
+appliction.properties rename it as application.yml : application.yml file is used to specify 
+database driver,server and port number , database name , username and passward.
